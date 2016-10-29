@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondologin"
+    android:gravity="center"
+    android:padding="16dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/fondoEdit"/>
+
+    <EditText
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:inputType="textPassword"
+        android:background="@color/fondoEdit"
+        android:ems="10"
+        android:id="@+id/editText3" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Sign up now"/>
+
+</LinearLayout>
